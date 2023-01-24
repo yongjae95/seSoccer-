@@ -1,0 +1,68 @@
+/* PreMatchCountry 세부 스타일 */
+.prematchitem__img {
+  width: 100%;
+}
+
+.prematchitem__country {
+  margin-top: -15px;
+  font-family: "Hahmlet", serif !important;
+  font-size: 1.5rem;
+}
+
+/* PreMatchInfo 세부 스타일 */
+.prematchitem__match_info {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.prematchitem__score {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.prematchitem__date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+}
+
+.prematchitem__date_current {
+  background-color: #eeeeee;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.prematchitem__date_time {
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+
+.prematchitem__grey {
+  background: grey !important;
+  opacity: 0.8 !important;
+}
+
+/* 스크롤바 스타일 */
+::-webkit-scrollbar {
+  height: 5px; /* 스크롤바의 너비 */
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 30%; /* 스크롤바의 길이 */
+  background: #8d1b3d; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffcbcb; /*스크롤바 뒷 배경 색상*/
+}
